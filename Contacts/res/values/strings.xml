@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsManager</string>
+    <string name="entering_info_activity_title">Enter contact\'s info</string>
+    <string name="input_name">Enter contact\'s name</string>
+    <string name="input_surname">Enter contact\'s surname</string>
+    <string name="input_phone_number">Enter contact\'s phone number</string>
+    <string name="button_send">Send info</string>
+    <string name="displaying_info_activity_title">Contact\'s info</string>
+</resources>
