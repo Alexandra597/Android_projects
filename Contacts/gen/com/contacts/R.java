@@ -27,6 +27,7 @@ public final class R {
     }
     public static final class string {
         public static final int app_name=0x7f040000;
+        public static final int button_call=0x7f040007;
         public static final int button_send=0x7f040005;
         public static final int displaying_info_activity_title=0x7f040006;
         public static final int entering_info_activity_title=0x7f040001;

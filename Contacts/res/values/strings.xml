@@ -7,4 +7,5 @@
     <string name="input_phone_number">Enter contact\'s phone number</string>
     <string name="button_send">Send info</string>
     <string name="displaying_info_activity_title">Contact\'s info</string>
+    <string name="button_call">Make a call</string>
 </resources>

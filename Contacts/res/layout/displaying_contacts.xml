@@ -9,7 +9,9 @@
         <TextView android:id="@+id/surname"
                   style="@style/textView.name" />
     </LinearLayout>
-
     <TextView android:id="@+id/phone"
               style="@style/textView.phone" />
+    <Button style="@style/button"
+            android:text="@string/button_call"
+            android:onClick="makeCall" />
 </LinearLayout>

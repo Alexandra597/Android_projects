@@ -2,7 +2,9 @@ package com.contacts;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 /**
@@ -31,5 +33,12 @@ public class DisplayInfoActivity extends Activity {
         surnameTextView.setText(surname);
         TextView phoneTextView = (TextView)findViewById(R.id.phone);
         phoneTextView.setText(phone);
+    }
+
+    public void makeCall(View view) {
+        TextView phoneNumberView = (TextView) findViewById(R.id.phone);
+        String phoneNumber = phoneNumberView.getText().toString();
+        Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));
+        startActivity(callIntent);
     }
 }
