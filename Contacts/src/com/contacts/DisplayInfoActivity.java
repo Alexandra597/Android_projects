@@ -19,20 +19,8 @@ public class DisplayInfoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.displaying_contacts);
-
-        Intent intent = getIntent();
-        String name = intent.getStringExtra(EnteringInfoActivity.EXTRA_NAME);
-        String surname = intent.getStringExtra(EnteringInfoActivity.EXTRA_SURNAME);
-        String phone = intent.getStringExtra(EnteringInfoActivity.EXTRA_PHONE);
-
-        TextView nameTextView = (TextView)findViewById(R.id.name);
-        nameTextView.setText(name);
-        TextView surnameTextView = (TextView)findViewById(R.id.surname);
-        surnameTextView.setText(surname);
-        TextView phoneTextView = (TextView)findViewById(R.id.phone);
-        phoneTextView.setText(phone);
+        showContactsInfo();
     }
 
     public void makeCall(View view) {
@@ -40,5 +28,16 @@ public class DisplayInfoActivity extends Activity {
         String phoneNumber = phoneNumberView.getText().toString();
         Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));
         startActivity(callIntent);
+    }
+
+    private void showContactsInfo() {
+        Intent intent = getIntent();
+        String name = intent.getStringExtra(EnteringInfoActivity.EXTRA_NAME);
+        String surname = intent.getStringExtra(EnteringInfoActivity.EXTRA_SURNAME);
+        String phone = intent.getStringExtra(EnteringInfoActivity.EXTRA_PHONE);
+
+        ActionsWithComponents.setTextInTextView(this, R.id.name, name);
+        ActionsWithComponents.setTextInTextView(this, R.id.surname, surname);
+        ActionsWithComponents.setTextInTextView(this, R.id.phone, phone);
     }
 }

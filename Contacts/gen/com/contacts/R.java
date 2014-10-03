@@ -30,10 +30,12 @@ public final class R {
         public static final int button_call=0x7f040007;
         public static final int button_send=0x7f040005;
         public static final int displaying_info_activity_title=0x7f040006;
+        public static final int empty_fields_message=0x7f040008;
         public static final int entering_info_activity_title=0x7f040001;
         public static final int input_name=0x7f040002;
         public static final int input_phone_number=0x7f040004;
         public static final int input_surname=0x7f040003;
+        public static final int ok_button=0x7f040009;
     }
     public static final class style {
         public static final int button=0x7f050003;

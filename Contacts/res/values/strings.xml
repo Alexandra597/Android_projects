@@ -8,4 +8,6 @@
     <string name="button_send">Send info</string>
     <string name="displaying_info_activity_title">Contact\'s info</string>
     <string name="button_call">Make a call</string>
+    <string name="empty_fields_message">You must fill in the information before adding this contact.</string>
+    <string name="ok_button">Ok.</string>
 </resources>

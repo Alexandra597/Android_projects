@@ -13,12 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8050f768-b88d-4a0d-87eb-8189df0750d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/contacts/R.java" afterPath="$PROJECT_DIR$/gen/com/contacts/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/displaying_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/displaying_contacts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
     </list>
     <ignored path="Contacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,7 +86,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+            <state line="11" column="32" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -97,7 +95,7 @@
       <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="617" selection-end="735" vertical-scroll-proportion="0.0">
+            <state line="15" column="41" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +104,7 @@
       <file leaf-file-name="displaying_contacts.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/displaying_contacts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="47" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
+            <state line="15" column="48" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +122,7 @@
       <file leaf-file-name="EnteringInfoActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="31" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0">
+            <state line="20" column="64" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,8 +131,23 @@
       <file leaf-file-name="DisplayInfoActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="66" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.34347826">
-              <folding />
+            <state line="27" column="70" selection-start="776" selection-end="776" vertical-scroll-proportion="0.626703">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActionsWithComponents.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="55" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#641#835#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,12 +166,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/displaying_contacts.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
       </list>
     </option>
@@ -551,11 +565,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="576" extended-state="7" />
+    <frame x="-8" y="-8" width="1040" height="576" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,9 +585,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24923077" sideWeight="0.6706731" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32932693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -639,6 +653,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="51" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="68" selection-start="353" selection-end="353" vertical-scroll-proportion="0.0" />
@@ -646,33 +665,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" />
+        <state line="11" column="32" selection-start="707" selection-end="707" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="617" selection-end="735" vertical-scroll-proportion="0.0" />
+        <state line="15" column="41" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/displaying_contacts.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="51" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.0" />
+        <state line="15" column="48" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="31" selection-start="1273" selection-end="1273" vertical-scroll-proportion="0.0" />
+        <state line="20" column="64" selection-start="722" selection-end="722" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="55" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#835#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="66" selection-start="1355" selection-end="1355" vertical-scroll-proportion="0.34347826">
-          <folding />
+        <state line="27" column="70" selection-start="776" selection-end="776" vertical-scroll-proportion="0.626703">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
