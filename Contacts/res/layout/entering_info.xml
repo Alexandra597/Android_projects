@@ -12,7 +12,7 @@
               style="@style/editText.phoneInput"
               android:hint="@string/input_phone_number" />
     <Button style="@style/button"
-            android:text="@string/button_send"
+            android:text="@string/button_add"
             android:onClick="sendInfo" />
 </LinearLayout>
 

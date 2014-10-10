@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/layout_props">
+    <LinearLayout style="@style/horizontalLayout">
+        <TextView android:id="@+id/contacts_name"
+                  style="@style/textView.listItem" />
+        <TextView android:id="@+id/contacts_surname"
+                  style="@style/textView.listItem" />
+    </LinearLayout>
+    <TextView android:id="@+id/contacts_phone"
+              style="@style/textView.listItem" />
+</LinearLayout>

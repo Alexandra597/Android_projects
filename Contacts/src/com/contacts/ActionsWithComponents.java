@@ -14,6 +14,7 @@ import android.widget.TextView;
  * To change this template use File | Settings | File Templates.
  */
 public class ActionsWithComponents {
+    public final static String EXTRA_PERSON = "com.contacts.PERSON";
 
     public static void showAlert(Activity activity, int messageId) {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(activity);
@@ -26,6 +27,20 @@ public class ActionsWithComponents {
                 }
         );
         alertDialog.show();
+    }
+
+    public static AlertDialog.Builder createConfirmationAlert(Activity activity, int messageId, int titleId) {
+        AlertDialog.Builder alertDialog = new AlertDialog.Builder(activity);
+        alertDialog.setMessage(messageId);
+        alertDialog.setTitle(titleId);
+        alertDialog.setNegativeButton(R.string.cancel_button,
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                }
+        );
+        return alertDialog;
     }
 
     public static String getTextFromEditText(Activity activity, int editTextId) {

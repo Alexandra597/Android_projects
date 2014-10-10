@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ContactsManager</string>
+
+    <!--titles for activities-->
     <string name="entering_info_activity_title">Enter contact\'s info</string>
+    <string name="displaying_info_activity_title">Contact\'s info</string>
+    <string name="displaying_contacts_activity_title">Contacts</string>
+
+    <!--placeholders for inputs-->
     <string name="input_name">Enter contact\'s name</string>
     <string name="input_surname">Enter contact\'s surname</string>
     <string name="input_phone_number">Enter contact\'s phone number</string>
-    <string name="button_send">Send info</string>
-    <string name="displaying_info_activity_title">Contact\'s info</string>
+
+    <!--names for buttons-->
+    <string name="button_add">Add</string>
     <string name="button_call">Make a call</string>
+    <string name="button_show_all_contacts">Show all contacts</string>
+    <string name="button_add_a_contact">Add new contact</string>
+    <string name="button_clear_contacts_list">Clear</string>
+
+    <!--strings for alerts-->
     <string name="empty_fields_message">You must fill in the information before adding this contact.</string>
+    <string name="no_contacts_message">No contacts found.</string>
+    <string name="clear_contacts_title">Clear contacts</string>
+    <string name="deletion_confirmation_message">Are you sure you want to erase all contacts?</string>
     <string name="ok_button">Ok.</string>
+    <string name="erase_button">Erase</string>
+    <string name="cancel_button">Cancel</string>
 </resources>

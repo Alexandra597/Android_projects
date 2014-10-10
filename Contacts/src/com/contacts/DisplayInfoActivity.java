@@ -19,7 +19,7 @@ public class DisplayInfoActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.displaying_contacts);
+        setContentView(R.layout.displaying_single_contact);
         showContactsInfo();
     }
 
@@ -32,12 +32,15 @@ public class DisplayInfoActivity extends Activity {
 
     private void showContactsInfo() {
         Intent intent = getIntent();
-        String name = intent.getStringExtra(EnteringInfoActivity.EXTRA_NAME);
-        String surname = intent.getStringExtra(EnteringInfoActivity.EXTRA_SURNAME);
-        String phone = intent.getStringExtra(EnteringInfoActivity.EXTRA_PHONE);
+        Contact person = (Contact) intent.getParcelableExtra(ActionsWithComponents.EXTRA_PERSON);
 
-        ActionsWithComponents.setTextInTextView(this, R.id.name, name);
-        ActionsWithComponents.setTextInTextView(this, R.id.surname, surname);
-        ActionsWithComponents.setTextInTextView(this, R.id.phone, phone);
+        ActionsWithComponents.setTextInTextView(this, R.id.name, person.getName());
+        ActionsWithComponents.setTextInTextView(this, R.id.surname, person.getSurname());
+        ActionsWithComponents.setTextInTextView(this, R.id.phone, person.getPhone());
+    }
+
+    public void showAll(View view) {
+        Intent intent = new Intent(this, DisplayContactsListActivity.class);
+        startActivity(intent);
     }
 }

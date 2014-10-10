@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/layout_props">
+    <RelativeLayout style="@style/horizontalLayout">
+        <Button style="@style/button"
+                android:text="@string/button_add_a_contact"
+                android:onClick="addContact" />
+        <Button style="@style/button.rightPositioning"
+                android:text="@string/button_clear_contacts_list"
+                android:onClick="clearList" />
+    </RelativeLayout>
+    <ListView android:id="@+id/contactsListView"
+              style="@style/horizontalLayout">
+    </ListView>
+</LinearLayout>

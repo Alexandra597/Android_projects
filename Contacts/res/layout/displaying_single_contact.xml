@@ -14,4 +14,7 @@
     <Button style="@style/button"
             android:text="@string/button_call"
             android:onClick="makeCall" />
+    <Button style="@style/button"
+            android:text="@string/button_show_all_contacts"
+            android:onClick="showAll" />
 </LinearLayout>
