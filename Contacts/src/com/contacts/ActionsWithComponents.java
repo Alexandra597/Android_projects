@@ -53,4 +53,9 @@ public class ActionsWithComponents {
         TextView textView = (TextView) activity.findViewById(textViewId);
         textView.setText(text);
     }
+
+    public static void setTextInEditText(Activity activity, int editTextId, String text) {
+        EditText editText = (EditText) activity.findViewById(editTextId);
+        editText.setText(text);
+    }
 }

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.TextView;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,6 +14,7 @@ import android.widget.TextView;
  * To change this template use File | Settings | File Templates.
  */
 public class DisplayInfoActivity extends Activity {
+    private Contact person;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,24 +23,29 @@ public class DisplayInfoActivity extends Activity {
         showContactsInfo();
     }
 
-    public void makeCall(View view) {
-        TextView phoneNumberView = (TextView) findViewById(R.id.phone);
-        String phoneNumber = phoneNumberView.getText().toString();
-        Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));
-        startActivity(callIntent);
-    }
-
     private void showContactsInfo() {
         Intent intent = getIntent();
-        Contact person = (Contact) intent.getParcelableExtra(ActionsWithComponents.EXTRA_PERSON);
+        person = (Contact) intent.getParcelableExtra(ActionsWithComponents.EXTRA_PERSON);
 
         ActionsWithComponents.setTextInTextView(this, R.id.name, person.getName());
         ActionsWithComponents.setTextInTextView(this, R.id.surname, person.getSurname());
         ActionsWithComponents.setTextInTextView(this, R.id.phone, person.getPhone());
     }
 
+    public void makeCall(View view) {
+        String phoneNumber = person.getPhone();
+        Intent callIntent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));
+        startActivity(callIntent);
+    }
+
     public void showAll(View view) {
         Intent intent = new Intent(this, DisplayContactsListActivity.class);
+        startActivity(intent);
+    }
+
+    public void editContact(View view) {
+        Intent intent = new Intent(this, EnteringInfoActivity.class);
+        intent.putExtra(ActionsWithComponents.EXTRA_PERSON, person);
         startActivity(intent);
     }
 }

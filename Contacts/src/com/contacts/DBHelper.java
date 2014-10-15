@@ -25,7 +25,7 @@ public class DBHelper extends SQLiteOpenHelper {
                 FeedReaderContract.FeedEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT," +
                 FeedReaderContract.FeedEntry.COLUMN_NAME_NAME + TEXT_TYPE + COMMA_SEP +
                 FeedReaderContract.FeedEntry.COLUMN_NAME_SURNAME + TEXT_TYPE + COMMA_SEP +
-                FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE + TEXT_TYPE + COMMA_SEP + ");"
+                FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE + TEXT_TYPE + ");"
         );
     }
 

@@ -14,6 +14,7 @@
 
     <!--names for buttons-->
     <string name="button_add">Add</string>
+    <string name="button_edit">Edit</string>
     <string name="button_call">Make a call</string>
     <string name="button_show_all_contacts">Show all contacts</string>
     <string name="button_add_a_contact">Add new contact</string>

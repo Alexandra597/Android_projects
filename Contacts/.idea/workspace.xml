@@ -13,16 +13,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8050f768-b88d-4a0d-87eb-8189df0750d0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk.res" afterPath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk.res" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk" afterPath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/classes.dex" afterPath="$PROJECT_DIR$/out/production/Contacts/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ActionsWithComponents.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ActionsWithComponents.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DBHelper.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DBHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayInfoActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/EnteringInfoActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/EnteringInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$string.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$style.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/contacts/R.java" afterPath="$PROJECT_DIR$/gen/com/contacts/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" afterPath="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="$PROJECT_DIR$/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" afterPath="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/Contact.java" afterPath="$PROJECT_DIR$/src/com/contacts/Contact.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
-      <change type="MOVED" beforePath="D:\Android\Projects\LABS\Contacts\res\layout\displaying_contacts.xml" afterPath="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" />
-      <change type="MOVED" beforePath="D:\Android\Projects\LABS\Contacts\res\layout\main.xml" afterPath="$PROJECT_DIR$/res/layout/entering_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" afterPath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
     </list>
     <ignored path="Contacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,22 +111,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/contacts/FeedReaderContract.java" />
-        <option value="$PROJECT_DIR$/res/layout/contacts_item.xml" />
         <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsList.java" />
         <option value="$PROJECT_DIR$/res/layout/displaying_contacts_list.xml" />
-        <option value="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
-        <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/res/layout/entering_info.xml" />
-        <option value="$PROJECT_DIR$/src/com/contacts/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/Contact.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
       </list>
     </option>
   </component>
@@ -333,24 +351,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,6 +376,24 @@
       <envs />
       <properties />
       <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -501,13 +519,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="576" extended-state="7" />
+    <frame x="-8" y="-8" width="1040" height="576" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33173078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -516,14 +553,15 @@
       <window_info id="Kahlua" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276923" sideWeight="0.6754808" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32451922" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276923" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -590,131 +628,96 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="23" selection-start="1987" selection-end="1987" vertical-scroll-proportion="0.75091577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="41" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/contacts_item.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="484" selection-end="484" vertical-scroll-proportion="0.46321526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="659" selection-end="663" vertical-scroll-proportion="0.2881356">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/displaying_contacts_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="48" selection-start="522" selection-end="522" vertical-scroll-proportion="0.46321526">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/entering_info.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="42" selection-start="734" selection-end="734" vertical-scroll-proportion="0.6948229">
-          <folding />
-        </state>
+        <state line="10" column="31" selection-start="485" selection-end="503" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/FeedReaderContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5258856" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Contacts.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0976864" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="735" column="22" selection-start="42462" selection-end="42462" vertical-scroll-proportion="33.231384" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/displaying_single_contact.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="779" selection-end="779" vertical-scroll-proportion="0.8303342">
+        <state line="15" column="54" selection-start="647" selection-end="647" vertical-scroll-proportion="0.3933162" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="31" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.32768363" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="8" selection-start="881" selection-end="881" vertical-scroll-proportion="-0.8537234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="42" selection-start="0" selection-end="1498" vertical-scroll-proportion="0.045212764" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="2000" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="23" selection-end="23" vertical-scroll-proportion="0.046272494">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.9125964">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="27" column="76" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="36" selection-start="1396" selection-end="1396" vertical-scroll-proportion="2.2724936">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getName#0;class#Contact#0" expanded="false" />
-            <element signature="method#getSurname#0;class#Contact#0" expanded="false" />
-            <element signature="method#getPhone#0;class#Contact#0" expanded="false" />
-          </folding>
+        <state line="69" column="8" selection-start="1582" selection-end="1582" vertical-scroll-proportion="3.1498637">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java">
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="443" selection-end="443" vertical-scroll-proportion="0.7234042">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="285" selection-end="285" vertical-scroll-proportion="0.35106382">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1040" selection-end="1040" vertical-scroll-proportion="1.4832904">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="62" selection-start="1092" selection-end="1092" vertical-scroll-proportion="1.1362468">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="239" selection-end="239" vertical-scroll-proportion="0.3617021">
+        <state line="71" column="34" selection-start="3251" selection-end="3251" vertical-scroll-proportion="2.9840426">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/FeedReaderContract.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5244216">
+        <state line="27" column="48" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.781491">
           <folding />
         </state>
       </provider>

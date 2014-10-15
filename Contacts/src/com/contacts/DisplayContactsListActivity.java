@@ -18,7 +18,7 @@ import android.view.View;
  */
 public class DisplayContactsListActivity extends Activity {
     private DBHelper dbHelper;
-    ListOfContacts listOfContacts;
+    private ListOfContacts listOfContacts;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,9 +30,10 @@ public class DisplayContactsListActivity extends Activity {
         dbHelper = new DBHelper(this);
         SQLiteDatabase db = dbHelper.getReadableDatabase();
         String[] projection = {
+                FeedReaderContract.FeedEntry._ID,
                 FeedReaderContract.FeedEntry.COLUMN_NAME_NAME,
                 FeedReaderContract.FeedEntry.COLUMN_NAME_SURNAME,
-                FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE,
+                FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE
         };
         String sortOrder = FeedReaderContract.FeedEntry.COLUMN_NAME_NAME + " ASC";
         Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,

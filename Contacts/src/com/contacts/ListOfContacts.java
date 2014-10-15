@@ -33,13 +33,16 @@ public class ListOfContacts {
     ListOfContacts(Activity act, Cursor cursor) {
         activity = act;
         contacts = new ArrayList<Contact>();
+        int idColIndex = cursor.getColumnIndex(FeedReaderContract.FeedEntry._ID);
         int nameColIndex = cursor.getColumnIndex(FeedReaderContract.FeedEntry.COLUMN_NAME_NAME);
         int surnameColIndex = cursor.getColumnIndex(FeedReaderContract.FeedEntry.COLUMN_NAME_SURNAME);
         int phoneColIndex = cursor.getColumnIndex(FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE);
         do {
-            contacts.add(new Contact(cursor.getString(nameColIndex),
-                                     cursor.getString(surnameColIndex),
-                                     cursor.getString(phoneColIndex)));
+            Contact person = new Contact(cursor.getString(nameColIndex),
+                                         cursor.getString(surnameColIndex),
+                                         cursor.getString(phoneColIndex));
+            person.setDbID(cursor.getLong(idColIndex));
+            contacts.add(person);
         } while (cursor.moveToNext());
     }
 

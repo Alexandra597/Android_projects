@@ -14,6 +14,7 @@ public class Contact implements Parcelable {
     private String name;
     private String surname;
     private String phone;
+    private long dbID;
 
     public Contact(String given_name, String given_surname, String given_phone) {
         name = given_name;
@@ -33,6 +34,14 @@ public class Contact implements Parcelable {
         return phone;
     }
 
+    public void setDbID(long id) {
+        this.dbID = id;
+    }
+
+    public long getDbID() {
+        return dbID;
+    }
+
     public int describeContents() {
         return 0;
     }
@@ -41,6 +50,7 @@ public class Contact implements Parcelable {
         parcel.writeString(name);
         parcel.writeString(surname);
         parcel.writeString(phone);
+        parcel.writeLong(dbID);
     }
 
     public static final Parcelable.Creator<Contact> CREATOR = new Parcelable.Creator<Contact>() {
@@ -57,5 +67,6 @@ public class Contact implements Parcelable {
         name = parcel.readString();
         surname = parcel.readString();
         phone = parcel.readString();
+        dbID = parcel.readLong();
     }
 }

@@ -11,9 +11,14 @@
     </LinearLayout>
     <TextView android:id="@+id/phone"
               style="@style/textView.phone" />
-    <Button style="@style/button"
-            android:text="@string/button_call"
-            android:onClick="makeCall" />
+    <RelativeLayout style="@style/horizontalLayout">
+        <Button style="@style/button"
+                android:text="@string/button_edit"
+                android:onClick="editContact" />
+        <Button style="@style/button.rightPositioning"
+                android:text="@string/button_call"
+                android:onClick="makeCall" />
+    </RelativeLayout>
     <Button style="@style/button"
             android:text="@string/button_show_all_contacts"
             android:onClick="showAll" />
