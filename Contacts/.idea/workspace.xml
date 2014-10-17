@@ -14,9 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8050f768-b88d-4a0d-87eb-8189df0750d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" afterPath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
     </list>
     <ignored path="Contacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,10 +72,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBHelper.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="DBHelper.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.30493274">
+            <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="68" selection-start="756" selection-end="756" vertical-scroll-proportion="0.5192802">
               <folding />
             </state>
           </provider>
@@ -103,7 +110,6 @@
         <option value="$PROJECT_DIR$/res/layout/entering_info.xml" />
         <option value="$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" />
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
@@ -113,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -527,7 +534,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="576" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -545,7 +552,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276923" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -664,11 +671,6 @@
         <state line="69" column="8" selection-start="1582" selection-end="1582" vertical-scroll-proportion="3.1498637" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.781491" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.043701798">
@@ -699,7 +701,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.30493274">
+        <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="68" selection-start="756" selection-end="756" vertical-scroll-proportion="0.5192802">
           <folding />
         </state>
       </provider>
