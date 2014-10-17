@@ -19,15 +19,18 @@ import java.util.ArrayList;
 public class ListOfContacts {
     private ArrayList<Contact> contacts;
     private Activity activity;
+    private ContactsAdapter adapter;
 
     ListOfContacts(Activity act) {
         contacts = new ArrayList<Contact>();
         activity = act;
+        adapter = new ContactsAdapter(activity, contacts);
     }
 
     ListOfContacts(Activity act, ArrayList<Contact> people) {
         contacts = people;
         activity = act;
+        adapter = new ContactsAdapter(activity, contacts);
     }
 
     ListOfContacts(Activity act, Cursor cursor) {
@@ -44,6 +47,7 @@ public class ListOfContacts {
             person.setDbID(cursor.getLong(idColIndex));
             contacts.add(person);
         } while (cursor.moveToNext());
+        adapter = new ContactsAdapter(activity, contacts);
     }
 
     public ArrayList<Contact> getContacts() {
@@ -52,9 +56,8 @@ public class ListOfContacts {
 
     public void showList() {
         ListView listView = (ListView) activity.findViewById(R.id.contactsListView);
-        ContactsAdapter adapter = new ContactsAdapter(activity, contacts);
         listView.setAdapter(adapter);
-
+        adapter.notifyDataSetChanged();
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> adapter, View view, int position, long id) {
                 Context ctx = adapter.getContext();
@@ -68,5 +71,6 @@ public class ListOfContacts {
 
     public void clearList() {
         contacts.clear();
+        adapter.notifyDataSetChanged();
     }
 }

@@ -64,7 +64,7 @@ public class DisplayContactsListActivity extends Activity {
                         SQLiteDatabase db = dbHelper.getWritableDatabase();
                         db.delete(FeedReaderContract.FeedEntry.TABLE_NAME, null, null);
                         listOfContacts.clearList();
-                        listOfContacts.showList();
+                        //listOfContacts.showList();
                         dialog.cancel();
                     }
                 }

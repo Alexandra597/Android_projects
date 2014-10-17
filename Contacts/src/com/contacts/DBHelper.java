@@ -14,9 +14,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
     private static final String TEXT_TYPE = " TEXT";
     private static final String COMMA_SEP = ",";
+    private static final String DB_NAME = "contactsDB";
+    private static final int VERSION = 1;
 
     public DBHelper(Context context) {
-        super(context, "contactsDB", null, 1);
+        super(context, DB_NAME, null, VERSION);
     }
 
     @Override

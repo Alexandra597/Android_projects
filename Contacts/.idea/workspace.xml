@@ -13,33 +13,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8050f768-b88d-4a0d-87eb-8189df0750d0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk.res" afterPath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk.res" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk" afterPath="$PROJECT_DIR$/out/production/Contacts/Contacts.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/classes.dex" afterPath="$PROJECT_DIR$/out/production/Contacts/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ActionsWithComponents.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ActionsWithComponents.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/Contact.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DBHelper.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DBHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayContactsListActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayInfoActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/DisplayInfoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/EnteringInfoActivity.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/EnteringInfoActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts$1.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/ListOfContacts.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$string.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$style.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R.class" afterPath="$PROJECT_DIR$/out/production/Contacts/com/contacts/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/contacts/R.java" afterPath="$PROJECT_DIR$/gen/com/contacts/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" afterPath="$PROJECT_DIR$/res/layout/displaying_single_contact.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" afterPath="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/Contact.java" afterPath="$PROJECT_DIR$/src/com/contacts/Contact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" afterPath="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" afterPath="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
     </list>
     <ignored path="Contacts.iws" />
@@ -97,7 +73,17 @@
     <favorites_list name="Contacts" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="DBHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.30493274">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -122,11 +108,11 @@
         <option value="$PROJECT_DIR$/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/Contact.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
       </list>
     </option>
   </component>
@@ -162,16 +148,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -256,6 +232,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -351,6 +337,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -376,24 +380,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -541,7 +527,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1040" height="576" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -558,8 +544,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276923" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276923" sideWeight="0.60096157" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39903846" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991803" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -658,11 +644,6 @@
         <state line="53" column="31" selection-start="1973" selection-end="1973" vertical-scroll-proportion="0.32768363" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="881" selection-end="881" vertical-scroll-proportion="-0.8537234" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="42" selection-start="0" selection-end="1498" vertical-scroll-proportion="0.045212764" />
@@ -675,49 +656,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="16" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="76" selection-start="1040" selection-end="1040" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="8" selection-start="1582" selection-end="1582" vertical-scroll-proportion="3.1498637">
-          <folding />
-        </state>
+        <state line="69" column="8" selection-start="1582" selection-end="1582" vertical-scroll-proportion="3.1498637" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="48" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.781491" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0">
+        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.043701798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="40" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.18085106">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="34" selection-start="3251" selection-end="3251" vertical-scroll-proportion="2.9840426">
+        <state line="71" column="34" selection-start="3251" selection-end="3251" vertical-scroll-proportion="1.1808511">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="48" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.781491">
+        <state line="65" column="51" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.6781915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.30493274">
           <folding />
         </state>
       </provider>
