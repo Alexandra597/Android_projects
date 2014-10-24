@@ -2,6 +2,7 @@ package com.contacts;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.ContentResolver;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.Cursor;
@@ -28,6 +29,7 @@ public class DisplayContactsListActivity extends Activity {
 
     private void readDataFromContactsDB() {
         dbHelper = new DBHelper(this);
+        ContentResolver resolver = getContentResolver();
         SQLiteDatabase db = dbHelper.getReadableDatabase();
         String[] projection = {
                 FeedReaderContract.FeedEntry._ID,
@@ -36,10 +38,12 @@ public class DisplayContactsListActivity extends Activity {
                 FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE
         };
         String sortOrder = FeedReaderContract.FeedEntry.COLUMN_NAME_NAME + " ASC";
-        Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
-                                 projection,
-                                 null, null, null, null,
-                                 sortOrder);
+//        Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
+//                                 projection,
+//                                 null, null, null, null,
+//                                 sortOrder);
+        Cursor cursor = resolver.query(Constants.CONTENT_URI_CONTACT,
+                                        projection, null, null, sortOrder);
         if (cursor.moveToFirst()) {
             listOfContacts = new ListOfContacts(this, cursor);
         } else {
@@ -62,7 +66,9 @@ public class DisplayContactsListActivity extends Activity {
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         SQLiteDatabase db = dbHelper.getWritableDatabase();
-                        db.delete(FeedReaderContract.FeedEntry.TABLE_NAME, null, null);
+                        ContentResolver resolver = getContentResolver();
+                        //db.delete(FeedReaderContract.FeedEntry.TABLE_NAME, null, null);
+                        resolver.delete(Constants.CONTENT_URI_CONTACT, null, null);
                         listOfContacts.clearList();
                         //listOfContacts.showList();
                         dialog.cancel();

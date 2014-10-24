@@ -28,5 +28,11 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="com.contacts.DisplayContactsListActivity" />
         </activity>
+        <provider
+                android:authorities="com.contacts"
+                android:name="com.contacts.ContactsContentProvider"
+                android:exported="true"
+                android:grantUriPermissions="true" >
+        </provider>
     </application>
 </manifest>

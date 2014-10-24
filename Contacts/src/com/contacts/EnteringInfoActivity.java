@@ -1,6 +1,7 @@
 package com.contacts;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
@@ -49,26 +50,32 @@ public class EnteringInfoActivity extends Activity {
 
     public void addToContacts(Contact person) {
         dbHelper = new DBHelper(this);
+        ContentResolver resolver = getContentResolver();
         ContentValues values = new ContentValues();
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_NAME, person.getName());
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_SURNAME, person.getSurname());
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE, person.getPhone());
-        db.insert(FeedReaderContract.FeedEntry.TABLE_NAME, null, values);
+        //db.insert(FeedReaderContract.FeedEntry.TABLE_NAME, null, values);
+        resolver.insert(Constants.CONTENT_URI_CONTACT, values);
         dbHelper.close();
     }
 
     public void updateContact(Contact person) {
         dbHelper = new DBHelper(this);
+        ContentResolver resolver = getContentResolver();
         ContentValues values = new ContentValues();
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         long id = personToEdit.getDbID();
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_NAME, person.getName());
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_SURNAME, person.getSurname());
         values.put(FeedReaderContract.FeedEntry.COLUMN_NAME_PHONE, person.getPhone());
-        db.update(FeedReaderContract.FeedEntry.TABLE_NAME, values,
+//        db.update(FeedReaderContract.FeedEntry.TABLE_NAME, values,
+//                        FeedReaderContract.FeedEntry._ID + "=?",
+//                        new String[] {String.valueOf(id)});
+        resolver.update(Constants.CONTENT_URI_CONTACT,values,
                         FeedReaderContract.FeedEntry._ID + "=?",
-                        new String[] {String.valueOf(id)});
+                       new String[] {String.valueOf(id)});
         dbHelper.close();
     }
 }

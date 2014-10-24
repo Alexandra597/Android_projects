@@ -15,6 +15,8 @@
     <list default="true" id="8050f768-b88d-4a0d-87eb-8189df0750d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" afterPath="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
     </list>
     <ignored path="Contacts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,20 +74,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+            <state line="32" column="69" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="EnteringInfoActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="68" selection-start="756" selection-end="756" vertical-scroll-proportion="0.5192802">
+            <state line="59" column="53" selection-start="2620" selection-end="2649" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DisplayContactsListActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="76" selection-start="1753" selection-end="1753" vertical-scroll-proportion="3.3457446">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="31" selection-start="393" selection-end="405" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactsContentProvider.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsContentProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="72" column="75" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,8 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsList.java" />
-        <option value="$PROJECT_DIR$/res/layout/displaying_contacts_list.xml" />
         <option value="$PROJECT_DIR$/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/res/layout/entering_info.xml" />
         <option value="$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java" />
@@ -115,11 +144,13 @@
         <option value="$PROJECT_DIR$/src/com/contacts/ActionsWithComponents.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/Contact.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/DBHelper.java" />
-        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
         <option value="$PROJECT_DIR$/src/com/contacts/ListOfContacts.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/contacts/Constants.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/ContactsContentProvider.java" />
+        <option value="$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java" />
       </list>
     </option>
   </component>
@@ -155,6 +186,44 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Contacts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,44 +308,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -621,21 +652,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/entering_info.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="485" selection-end="503" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/FeedReaderContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="252" selection-end="252" vertical-scroll-proportion="0.5258856" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Contacts.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0976864" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="735" column="22" selection-start="42462" selection-end="42462" vertical-scroll-proportion="33.231384" />
@@ -661,54 +677,79 @@
         <state line="0" column="0" selection-start="0" selection-end="2000" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/Contact.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="8" selection-start="1582" selection-end="1582" vertical-scroll-proportion="3.1498637" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.38964579">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/FeedReaderContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="19" selection-start="231" selection-end="231" vertical-scroll-proportion="0.33161953">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="393" selection-end="405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="0.043701798">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="40" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.18085106">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="34" selection-start="3251" selection-end="3251" vertical-scroll-proportion="1.1808511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="51" selection-start="2616" selection-end="2616" vertical-scroll-proportion="0.6781915">
+        <state line="21" column="36" selection-start="530" selection-end="530" vertical-scroll-proportion="-1.640327">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/contacts/DBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="45" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+        <state line="13" column="49" selection-start="351" selection-end="351" vertical-scroll-proportion="-0.4359673">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ListOfContacts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="40" selection-start="2110" selection-end="2110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/ContactsContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="75" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="756" selection-end="756" vertical-scroll-proportion="0.5192802">
+        <state line="32" column="69" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/EnteringInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="53" selection-start="2620" selection-end="2649" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/contacts/DisplayContactsListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="76" selection-start="1753" selection-end="1753" vertical-scroll-proportion="3.3457446">
           <folding />
         </state>
       </provider>
