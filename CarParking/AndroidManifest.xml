@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.carparking"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".RunCarParking"
+                  android:label="@string/run_car_parking_activity_title">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service android:name="com.carparking.ParkingService"/>
+        <receiver android:name=".CarReceiver"
+                  android:exported="false">
+            <intent-filter>
+                <action android:name="com.carparking.broadcastreceiverservice.RECEIVER" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>
