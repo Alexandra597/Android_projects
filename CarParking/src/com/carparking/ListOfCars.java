@@ -2,22 +2,13 @@ package com.carparking;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 10.10.14
- * Time: 17:57
- * To change this template use File | Settings | File Templates.
- */
 public class ListOfCars {
     private ArrayList<Car> cars;
     private Activity activity;
@@ -25,12 +16,6 @@ public class ListOfCars {
 
     ListOfCars(Activity act) {
         cars = new ArrayList<Car>();
-        activity = act;
-        adapter = new CarsAdapter(activity, cars);
-    }
-
-    ListOfCars(Activity act, ArrayList<Car> carsList) {
-        cars = carsList;
         activity = act;
         adapter = new CarsAdapter(activity, cars);
     }
@@ -64,12 +49,17 @@ public class ListOfCars {
         adapter.notifyDataSetChanged();
         listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             public boolean onItemLongClick(AdapterView<?> adapter, View view, int position, long id) {
-                Context ctx = adapter.getContext();
-                Car car = (Car)adapter.getItemAtPosition(position);
-                DBHelper dbHelper = new DBHelper(ctx);
-                SQLiteDatabase db = dbHelper.getWritableDatabase();
-                db.delete(FeedReaderContract.FeedEntry.TABLE_NAME,
-                        FeedReaderContract.FeedEntry._ID + "=" + car.getDbID(), null);
+                final Context ctx = adapter.getContext();
+                final Car car = (Car)adapter.getItemAtPosition(position);
+                new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        DBHelper dbHelper = new DBHelper(ctx);
+                        SQLiteDatabase db = dbHelper.getWritableDatabase();
+                        db.delete(FeedReaderContract.FeedEntry.TABLE_NAME,
+                                  FeedReaderContract.FeedEntry._ID + "=" + car.getDbID(), null);
+                    }
+                }).start();
                 return true;
             }
         });

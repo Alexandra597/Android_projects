@@ -5,70 +5,89 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 31.10.14
- * Time: 11:29
- * To change this template use File | Settings | File Templates.
- */
 public class RunCarParking extends Activity {
+    private static final String LOG_TAG = "MyActivity";
     private DBHelper dbHelper;
     private ListOfCars listOfCars;
-    Intent serviceIntent;
+    private Intent serviceIntent;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.d(LOG_TAG, "onCreate");
         setContentView(R.layout.displaying_cars_list);
         readDataFromContactsDB();
     }
 
-    private void readDataFromContactsDB() {
-        dbHelper = new DBHelper(this);
-        SQLiteDatabase db = dbHelper.getReadableDatabase();
-        String[] projection = {
-                FeedReaderContract.FeedEntry._ID,
-                FeedReaderContract.FeedEntry.COLUMN_NAME_NUMBERPLATE,
-                FeedReaderContract.FeedEntry.COLUMN_NAME_MODEL,
-                FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR,
-                FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR_CODE
-        };
-        Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
-                                 projection,
-                                 null, null, null, null, null);
-        if (cursor.moveToFirst()) {
-            listOfCars = new ListOfCars(this, cursor);
-        } else {
-            listOfCars = new ListOfCars(this);
-            Toast toast = Toast.makeText(this, R.string.empty_list_message, Toast.LENGTH_SHORT);
-            toast.show();
+    public void onDestroy() {
+        super.onDestroy();
+        if(dbHelper != null) {
+            dbHelper.close();
+            dbHelper = null;
         }
-        listOfCars.showList();
-        cursor.close();
-        dbHelper.close();
+        listOfCars = null;
+        serviceIntent = null;
+    }
+
+    private synchronized void readDataFromContactsDB() {
+        Log.d(LOG_TAG, "read");
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                Activity ctx = RunCarParking.this;
+                dbHelper = new DBHelper(ctx);
+                SQLiteDatabase db = dbHelper.getReadableDatabase();
+                Log.d(LOG_TAG, "inSynchronized");
+                String[] projection = {
+                        FeedReaderContract.FeedEntry._ID,
+                        FeedReaderContract.FeedEntry.COLUMN_NAME_NUMBERPLATE,
+                        FeedReaderContract.FeedEntry.COLUMN_NAME_MODEL,
+                        FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR,
+                        FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR_CODE
+                };
+                Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
+                        projection,
+                        null, null, null, null, null);
+                if (cursor.moveToFirst()) {
+                    listOfCars = new ListOfCars(ctx, cursor);
+                } else {
+                    listOfCars = new ListOfCars(ctx);
+                    Toast toast = Toast.makeText(ctx, R.string.empty_list_message, Toast.LENGTH_SHORT);
+                    toast.show();
+                }
+                cursor.close();
+                listOfCars.showList();
+                dbHelper.close();
+            }
+        }).start();
     }
 
     public void updateParking(View view) {
-        Toast.makeText(this, "UPDATE", Toast.LENGTH_SHORT).show();
+        Log.d(LOG_TAG,"update");
+        Toast.makeText(this, "Updating info", Toast.LENGTH_SHORT).show();
         readDataFromContactsDB();
     }
 
     public void startParking(View view) {
+        Log.d(LOG_TAG, "startService");
         if(serviceIntent == null) {
             serviceIntent = new Intent(this, ParkingService.class);
             startService(serviceIntent);
+            Log.d(LOG_TAG, "started");
         } else {
             Toast.makeText(this, R.string.service_already_started, Toast.LENGTH_SHORT).show();
         }
     }
 
     public void stopParking(View view) {
+        Log.d(LOG_TAG, "stopService");
         if(serviceIntent != null) {
             stopService(serviceIntent);
             serviceIntent = null;
+            Log.d(LOG_TAG, "stopped");
         } else {
             Toast.makeText(this, R.string.service_already_stopped, Toast.LENGTH_SHORT).show();
         }

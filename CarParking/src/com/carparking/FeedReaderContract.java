@@ -2,13 +2,6 @@ package com.carparking;
 
 import android.provider.BaseColumns;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 03.10.14
- * Time: 20:50
- * To change this template use File | Settings | File Templates.
- */
 public final class FeedReaderContract {
 
     public FeedReaderContract() {}

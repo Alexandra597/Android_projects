@@ -9,13 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 07.10.14
- * Time: 12:56
- * To change this template use File | Settings | File Templates.
- */
 public class CarsAdapter extends BaseAdapter {
     Context context;
     LayoutInflater lInflater;

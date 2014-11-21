@@ -1,24 +1,15 @@
 package com.carparking;
 
 import android.app.Service;
-import android.content.ContentValues;
 import android.content.Intent;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.IBinder;
 import android.util.Log;
 import android.widget.Toast;
-
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 31.10.14
- * Time: 21:39
- * To change this template use File | Settings | File Templates.
- */
 public class ParkingService extends Service {
-    private static final String LOG_TAG = "Service";
+    private static final String LOG_TAG = "MyService";
+    CarRunner runner;
 
     @Override
     public void onCreate() {
@@ -29,6 +20,7 @@ public class ParkingService extends Service {
     @Override
     public void onDestroy() {
        super.onDestroy();
+       runner = null;
        Toast.makeText(this, R.string.destroying_service, Toast.LENGTH_SHORT).show();
        Log.d(LOG_TAG, "onDestroy");
     }
@@ -47,13 +39,13 @@ public class ParkingService extends Service {
     }
 
     void parkCars() {
-        Toast.makeText(this, "HI", Toast.LENGTH_SHORT).show();
-        CarRunner runner = new CarRunner();
+        runner = new CarRunner();
         runner.start();
     }
 
     class CarRunner extends Thread {
         public void run() {
+            Log.d(LOG_TAG, "inThreadRunnerRun");
             Car car;
             Intent broadcastIntent;
             while(true) {
@@ -63,7 +55,7 @@ public class ParkingService extends Service {
                     broadcastIntent = new Intent(Constants.BROADCAST_ACTION);
                     broadcastIntent.putExtra(Constants.EXTRA_CAR, car);
                     sendBroadcast(broadcastIntent);
-                    TimeUnit.SECONDS.sleep(30);
+                    TimeUnit.SECONDS.sleep(10);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }

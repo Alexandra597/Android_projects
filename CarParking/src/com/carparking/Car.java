@@ -4,13 +4,6 @@ import android.graphics.Color;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-/**
- * Created with IntelliJ IDEA.
- * User: user
- * Date: 31.10.14
- * Time: 11:32
- * To change this template use File | Settings | File Templates.
- */
 public class Car implements Parcelable {
     private String numberplate;
     private String model;
