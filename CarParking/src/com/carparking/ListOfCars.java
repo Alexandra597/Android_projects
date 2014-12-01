@@ -51,15 +51,10 @@ public class ListOfCars {
             public boolean onItemLongClick(AdapterView<?> adapter, View view, int position, long id) {
                 final Context ctx = adapter.getContext();
                 final Car car = (Car)adapter.getItemAtPosition(position);
-                new Thread(new Runnable() {
-                    @Override
-                    public void run() {
-                        DBHelper dbHelper = new DBHelper(ctx);
-                        SQLiteDatabase db = dbHelper.getWritableDatabase();
-                        db.delete(FeedReaderContract.FeedEntry.TABLE_NAME,
-                                  FeedReaderContract.FeedEntry._ID + "=" + car.getDbID(), null);
-                    }
-                }).start();
+                DBHelper dbHelper = new DBHelper(ctx);
+                SQLiteDatabase db = dbHelper.getWritableDatabase();
+                db.delete(FeedReaderContract.FeedEntry.TABLE_NAME,
+                    FeedReaderContract.FeedEntry._ID + "=" + car.getDbID(), null);
                 return true;
             }
         });

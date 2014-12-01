@@ -3,6 +3,7 @@ package com.carparking;
 import android.graphics.Color;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.util.Log;
 
 public class Car implements Parcelable {
     private String numberplate;
@@ -14,15 +15,13 @@ public class Car implements Parcelable {
     private static final String[] MODEL_LIST = {"Kia","Tesla","Hyundai","Mazda","Mitsubishi",
                                         "Dodge", "BMW", "Mercedes", "Lamborghini", "Toyota"};
     private static final String[] COLOR_LIST = {"red", "blue", "green", "white", "gray",
-            "cyan", "magenta", "yellow", "lightgray", "darkgray", "grey", "lightgrey",
-            "darkgrey", "aqua", "fuschia", "lime", "maroon", "navy", "olive", "purple",
-            "silver", "teal"};
+            "cyan", "magenta", "yellow", "lightgray", "darkgray"};
     private static final String ALPHABET = "ABCDEFGHIGKLMNOPQRSTUVWXYZ";
 
     public Car() {
         int i = (int) Math.floor(Math.random()*9);
         model = MODEL_LIST[i];
-        int j = (int) Math.floor(Math.random()*21);
+        int j = (int) Math.floor(Math.random()*9);
         colorName = COLOR_LIST[j];
         colorCode = Color.parseColor(colorName);
         int l1 = (int) Math.floor(Math.random()*25);

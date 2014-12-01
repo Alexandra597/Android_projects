@@ -34,35 +34,29 @@ public class RunCarParking extends Activity {
 
     private synchronized void readDataFromContactsDB() {
         Log.d(LOG_TAG, "read");
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                Activity ctx = RunCarParking.this;
-                dbHelper = new DBHelper(ctx);
-                SQLiteDatabase db = dbHelper.getReadableDatabase();
-                Log.d(LOG_TAG, "inSynchronized");
-                String[] projection = {
-                        FeedReaderContract.FeedEntry._ID,
-                        FeedReaderContract.FeedEntry.COLUMN_NAME_NUMBERPLATE,
-                        FeedReaderContract.FeedEntry.COLUMN_NAME_MODEL,
-                        FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR,
-                        FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR_CODE
-                };
-                Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
-                        projection,
-                        null, null, null, null, null);
-                if (cursor.moveToFirst()) {
-                    listOfCars = new ListOfCars(ctx, cursor);
-                } else {
-                    listOfCars = new ListOfCars(ctx);
-                    Toast toast = Toast.makeText(ctx, R.string.empty_list_message, Toast.LENGTH_SHORT);
-                    toast.show();
-                }
-                cursor.close();
-                listOfCars.showList();
-                dbHelper.close();
-            }
-        }).start();
+        Activity ctx = RunCarParking.this;
+        dbHelper = new DBHelper(ctx);
+        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        String[] projection = {
+            FeedReaderContract.FeedEntry._ID,
+            FeedReaderContract.FeedEntry.COLUMN_NAME_NUMBERPLATE,
+            FeedReaderContract.FeedEntry.COLUMN_NAME_MODEL,
+            FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR,
+            FeedReaderContract.FeedEntry.COLUMN_NAME_COLOR_CODE
+        };
+        Cursor cursor = db.query(FeedReaderContract.FeedEntry.TABLE_NAME,
+                            projection,
+                            null, null, null, null, null);
+        if (cursor.moveToFirst()) {
+            listOfCars = new ListOfCars(ctx, cursor);
+        } else {
+            listOfCars = new ListOfCars(ctx);
+            Toast toast = Toast.makeText(ctx, R.string.empty_list_message, Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        cursor.close();
+        listOfCars.showList();
+        dbHelper.close();
     }
 
     public void updateParking(View view) {
